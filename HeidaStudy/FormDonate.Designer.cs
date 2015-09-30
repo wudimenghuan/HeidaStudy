@@ -1,4 +1,4 @@
-namespace HeidaStudy
+ï»¿namespace HeidaStudy
 {
     partial class FormDonate
     {
@@ -61,7 +61,7 @@ namespace HeidaStudy
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(182, 23);
             this.labelX1.TabIndex = 1;
-            this.labelX1.Text = "Ğ¡»ï°éÃÇ£¬ÔŞÖúÔŞÖú~";
+            this.labelX1.Text = "å°ä¼™ä¼´ä»¬ï¼ŒèµåŠ©èµåŠ©~";
             // 
             // labelX2
             // 
@@ -75,7 +75,7 @@ namespace HeidaStudy
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(182, 23);
             this.labelX2.TabIndex = 2;
-            this.labelX2.Text = "Ö§¸¶±¦£ºwudimenghuan@qq.com";
+            this.labelX2.Text = "æ”¯ä»˜å®ï¼šwudimenghuan@qq.com";
             // 
             // labelX3
             // 
@@ -89,7 +89,7 @@ namespace HeidaStudy
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(182, 23);
             this.labelX3.TabIndex = 3;
-            this.labelX3.Text = "²»¹ÜÊÇ1Ôª2Ôª£¬»¹ÊÇ50Ôª500Ôª";
+            this.labelX3.Text = "ä¸ç®¡æ˜¯1å…ƒ2å…ƒï¼Œè¿˜æ˜¯50å…ƒ500å…ƒ";
             // 
             // labelX4
             // 
@@ -103,7 +103,7 @@ namespace HeidaStudy
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(137, 23);
             this.labelX4.TabIndex = 4;
-            this.labelX4.Text = "ÄúµÄÖ§³Ö¾ÍÊÇÎÒµÄ¶¯Á¦";
+            this.labelX4.Text = "æ‚¨çš„æ”¯æŒå°±æ˜¯æˆ‘çš„åŠ¨åŠ›";
             // 
             // FormDonate
             // 
@@ -123,8 +123,8 @@ namespace HeidaStudy
             this.MinimumSize = new System.Drawing.Size(512, 293);
             this.Name = "FormDonate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "ºÚ´óÍøÂç½ÌÑ§Ñ§Ï°¹Ü¼Ò";
-            this.TitleText = "ÔŞÖú";
+            this.Text = "é»‘å¤§ç½‘ç»œæ•™å­¦å­¦ä¹ ç®¡å®¶";
+            this.TitleText = "èµåŠ©";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

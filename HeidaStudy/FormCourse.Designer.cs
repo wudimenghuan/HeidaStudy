@@ -1,4 +1,4 @@
-namespace HeidaStudy
+﻿namespace HeidaStudy
 {
     partial class FormCourse
     {
@@ -67,8 +67,8 @@ namespace HeidaStudy
             this.MinimumSize = new System.Drawing.Size(416, 435);
             this.Name = "FormCourse";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "ѡ��γ�";
-            this.TitleText = "˫��ѡ��γ�";
+            this.Text = "选择课程";
+            this.TitleText = "双击选择课程";
             this.Load += new System.EventHandler(this.FormCourse_Load);
             this.ResumeLayout(false);
 

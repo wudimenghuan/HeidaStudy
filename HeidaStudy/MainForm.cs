@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,11 +68,11 @@ namespace HeidaStudy
 
         private void setTip()
         {
-            //balloonTip1.SetBalloonCaption(nameTxt, "ÌáÊ¾");
-            balloonTip1.SetBalloonText(txtName, "ÊäÈëÄãµÄ´óÃû°É£¬210.46.97.78ÍøÂç½ÌÑ§Æ½Ì¨µÄÓÃ»§Ãû");
-            balloonTip1.SetBalloonText(txtPassword, "´óÃûÊäÍêÁË¾ÍÊÇÄãµÄÃÜÂë¿©£¬Ñ§Ğ£¹æ¶¨ÃÜÂë×î³¤12Î»£¬³¬³ö·¶Î§µÄ»°¾ÍÁ¬ÍøÒ³Ò²ÉÏ²»È¥Å¶£¬ÒªÈ¥Ö÷Â¥ĞŞ¸ÄÃÜÂëµÄÅ¶");
-            balloonTip1.SetBalloonText(btnSelectCourse, "ÔÚ´Ë´¦Ñ¡Ôñ¿Î³Ì£¬¿ÉÒÔÑ¡Ôñ×ÜÊ±³¤£¬×ÜÊ±³¤ÎŞ¼ÓËÙ¹¦ÄÜÅ¶");
-            balloonTip1.SetBalloonText(txtTargetTime, "µ½´ËÄ¿±êÊ±ºò£¬Ê±¼ä»á×Ô¶¯Í£Ö¹Å¶");
+            //balloonTip1.SetBalloonCaption(nameTxt, "æç¤º");
+            balloonTip1.SetBalloonText(txtName, "è¾“å…¥ä½ çš„å¤§åå§ï¼Œ210.46.97.78ç½‘ç»œæ•™å­¦å¹³å°çš„ç”¨æˆ·å");
+            balloonTip1.SetBalloonText(txtPassword, "å¤§åè¾“å®Œäº†å°±æ˜¯ä½ çš„å¯†ç å’¯ï¼Œå­¦æ ¡è§„å®šå¯†ç æœ€é•¿12ä½ï¼Œè¶…å‡ºèŒƒå›´çš„è¯å°±è¿ç½‘é¡µä¹Ÿä¸Šä¸å»å“¦ï¼Œè¦å»ä¸»æ¥¼ä¿®æ”¹å¯†ç çš„å“¦");
+            balloonTip1.SetBalloonText(btnSelectCourse, "åœ¨æ­¤å¤„é€‰æ‹©è¯¾ç¨‹ï¼Œå¯ä»¥é€‰æ‹©æ€»æ—¶é•¿ï¼Œæ€»æ—¶é•¿æ— åŠ é€ŸåŠŸèƒ½å“¦");
+            balloonTip1.SetBalloonText(txtTargetTime, "åˆ°æ­¤ç›®æ ‡æ—¶å€™ï¼Œæ—¶é—´ä¼šè‡ªåŠ¨åœæ­¢å“¦");
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -87,13 +87,13 @@ namespace HeidaStudy
 
             if (int.TryParse(txtTargetTime.Text, out targetTime) == false)
             {
-                MessageBox.Show("ÇëÊäÈëÊı×Ö");
+                MessageBox.Show("è¯·è¾“å…¥æ•°å­—");
                 txtTargetTime.Focus();
                 txtTargetTime.SelectAll();
             }
             else if (User.course == null || User.course.Equals(""))
             {
-                MessageBox.Show("ÇëÑ¡Ôñ¿Î³Ì");
+                MessageBox.Show("è¯·é€‰æ‹©è¯¾ç¨‹");
                 btnSelectCourse.Focus();
             }
             else if (User.Login())
@@ -104,7 +104,7 @@ namespace HeidaStudy
             }
             else
             {
-                MessageBox.Show("ÃÜÂë´íÎó»òÎŞ·¨Á¬½Ó·şÎñÆ÷");
+                MessageBox.Show("å¯†ç é”™è¯¯æˆ–æ— æ³•è¿æ¥æœåŠ¡å™¨");
             }
         }
 
@@ -129,7 +129,7 @@ namespace HeidaStudy
                 }
                 else
                 {
-                    lblSelectedCourse.Text = "Î´Ñ¡Ôñ";
+                    lblSelectedCourse.Text = "æœªé€‰æ‹©";
                     User.course = null;
                 }
             }
@@ -187,7 +187,7 @@ namespace HeidaStudy
                 }
                 if (isStop == true)
                 {
-                    if (lblTime.Text != "Î´µÇÂ½")
+                    if (lblTime.Text != "æœªç™»é™†")
                     {
                         timeProcess = 100;
                         showTimeProcess();
@@ -204,8 +204,8 @@ namespace HeidaStudy
 
         private void Finished()
         {
-            lblConnected.Text = "Î´µÇÂ½";
-            lblStatus.Text = "ÒÑ¾­Íê³ÉÑ§Ï°£¬´ïµ½ÁËÑ§Ï°Ä¿±ê£º" + txtTargetTime.Text;
+            lblConnected.Text = "æœªç™»é™†";
+            lblStatus.Text = "å·²ç»å®Œæˆå­¦ä¹ ï¼Œè¾¾åˆ°äº†å­¦ä¹ ç›®æ ‡ï¼š" + txtTargetTime.Text;
             EnableButton();
         }
 
@@ -344,7 +344,7 @@ namespace HeidaStudy
             }
             else
             {
-                //·Ç×ÜÊ±³¤
+                //éæ€»æ—¶é•¿
                 while (true)
                 {
                     try
@@ -472,9 +472,9 @@ namespace HeidaStudy
                 try
                 {
                     html = HTMLHelper.GetHtml("http://210.46.97.78/eol/welcomepage/course/index.jsp?lid=" + getTimeClass.CourseNumber, getTimeClass.CookieContainer, getTimeClass.Header);
-                    string first = "<li>µÇÂ¼¿Î³Ì×ÜÊ±³¤£º";
+                    string first = "<li>ç™»å½•è¯¾ç¨‹æ€»æ—¶é•¿ï¼š";
                     string last = "</li>";
-                    string yearFirst = "µÇÂ¼¿Î³ÌÊ±¼ä£º";
+                    string yearFirst = "ç™»å½•è¯¾ç¨‹æ—¶é—´ï¼š";
                     string yearLast = "</li>";
                     int x = html.IndexOf(first);
                     int y = html.IndexOf(last, x);
@@ -517,9 +517,9 @@ namespace HeidaStudy
                 try
                 {
                     html = HTMLHelper.GetHtml("http://210.46.97.78/eol/welcomepage/student/index.jsp", getTimeClass.CookieContainer, getTimeClass.Header);
-                    string first = "<li>ÔÚÏß×ÜÊ±³¤£º";
+                    string first = "<li>åœ¨çº¿æ€»æ—¶é•¿ï¼š";
                     string last = "</li>";
-                    string yearFirst = "µÇÂ¼Ê±¼ä£º<span class=\"loginlasttime\">";
+                    string yearFirst = "ç™»å½•æ—¶é—´ï¼š<span class=\"loginlasttime\">";
                     string yearLast = "</li>";
                     int x = html.IndexOf(first);
                     int y = html.IndexOf(last, x);
@@ -561,7 +561,7 @@ namespace HeidaStudy
 
         private void Time()
         {
-            lblStatus.Text = "ÒÑÁ¬½Ó£¬Ê±¼äÒÑ¸üĞÂ£¬²»ÒªÍË³ö³ÌĞò...";
+            lblStatus.Text = "å·²è¿æ¥ï¼Œæ—¶é—´å·²æ›´æ–°ï¼Œä¸è¦é€€å‡ºç¨‹åº...";
             lblTime.Text = htmlTime;
         }
 
@@ -574,7 +574,7 @@ namespace HeidaStudy
 
         private void TimeError()
         {
-            lblStatus.Text = "»ñÈ¡Ê±¼ä³ö´í£¬ÕıÔÚÖØĞÂ»ñÈ¡";
+            lblStatus.Text = "è·å–æ—¶é—´å‡ºé”™ï¼Œæ­£åœ¨é‡æ–°è·å–";
         }
 
         private void ShowCookieInfo()
@@ -586,8 +586,8 @@ namespace HeidaStudy
 
         private void CookieInfo()
         {
-            lblConnected.Text = "Á¬½ÓÊ§°Ü£¬·şÎñÆ÷Ñ¹Á¦É½´ó£¬ÇëÕÒÈËÉÙµÄÊ±¼äÔËĞĞ£¬»òµÈ´ı×Ô¶¯ÖØÁ¬";
-            lblStatus.Text = "ÕıÔÚ×Ô¶¯ÖØÁ¬";
+            lblConnected.Text = "è¿æ¥å¤±è´¥ï¼ŒæœåŠ¡å™¨å‹åŠ›å±±å¤§ï¼Œè¯·æ‰¾äººå°‘çš„æ—¶é—´è¿è¡Œï¼Œæˆ–ç­‰å¾…è‡ªåŠ¨é‡è¿";
+            lblStatus.Text = "æ­£åœ¨è‡ªåŠ¨é‡è¿";
         }
 
         private void ShowFinish()
@@ -599,7 +599,7 @@ namespace HeidaStudy
 
         private void Finish()
         {
-            lblStatus.Text = "ÒÑ³É¹¦¸üĞÂ£¬ÏÖÔÚ¿ÉÒÔ°²È«ÍË³ö»òµÈ´ıÏÂÒ»ÂÖ×Ô¶¯¸üĞÂ";
+            lblStatus.Text = "å·²æˆåŠŸæ›´æ–°ï¼Œç°åœ¨å¯ä»¥å®‰å…¨é€€å‡ºæˆ–ç­‰å¾…ä¸‹ä¸€è½®è‡ªåŠ¨æ›´æ–°";
         }
 
         private void ShowConnectionSuccessful()
@@ -611,8 +611,8 @@ namespace HeidaStudy
 
         private void ConnectionSuccessful()
         {
-            lblConnected.Text = "ÒÑÁ¬½Ó";
-            lblStatus.Text = "ÒÑÁ¬½Ó£¬ÕıÔÚÑ§Ï°ÖĞ£¬²»ÒªÍË³ö³ÌĞò";
+            lblConnected.Text = "å·²è¿æ¥";
+            lblStatus.Text = "å·²è¿æ¥ï¼Œæ­£åœ¨å­¦ä¹ ä¸­ï¼Œä¸è¦é€€å‡ºç¨‹åº";
         }
 
         private void ShowConnectionFailed()
@@ -624,8 +624,8 @@ namespace HeidaStudy
 
         private void ConnectionFailed()
         {
-            lblConnected.Text = "Á¬½ÓÊ§°Ü";
-            lblStatus.Text = "·şÎñÆ÷Ñ¹Á¦É½´ó£¬ÕıÔÚÅÅ¶ÓÖĞ£¬ÇëµÈ´ı";
+            lblConnected.Text = "è¿æ¥å¤±è´¥";
+            lblStatus.Text = "æœåŠ¡å™¨å‹åŠ›å±±å¤§ï¼Œæ­£åœ¨æ’é˜Ÿä¸­ï¼Œè¯·ç­‰å¾…";
         }
 
         private void showTimeProcess()
@@ -647,8 +647,8 @@ namespace HeidaStudy
 
         private void TotalProcess()
         {
-            int hourIndex = htmlTime.IndexOf("Ğ¡Ê±");
-            int minuteIndex = htmlTime.IndexOf("·Ö");
+            int hourIndex = htmlTime.IndexOf("å°æ—¶");
+            int minuteIndex = htmlTime.IndexOf("åˆ†");
             int minuteNumberIndex = hourIndex + 2;
             int hour = 0;
             int minute = 0;

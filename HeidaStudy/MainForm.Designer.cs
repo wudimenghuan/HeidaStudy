@@ -1,4 +1,4 @@
-namespace HeidaStudy
+ï»¿namespace HeidaStudy
 {
     partial class MainForm
     {
@@ -79,7 +79,7 @@ namespace HeidaStudy
             this.lblLinkBlog.Name = "lblLinkBlog";
             this.lblLinkBlog.Size = new System.Drawing.Size(166, 23);
             this.lblLinkBlog.TabIndex = 24;
-            this.lblLinkBlog.Text = "¹Ù·½²©¿Í£ºblog.stx8.com";
+            this.lblLinkBlog.Text = "å®˜æ–¹åšå®¢ï¼šblog.stx8.com";
             this.lblLinkBlog.Click += new System.EventHandler(this.lblLinkBlog_Click);
             // 
             // nameLabel
@@ -95,7 +95,7 @@ namespace HeidaStudy
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(50, 23);
             this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "ÓÃ»§Ãû";
+            this.nameLabel.Text = "ç”¨æˆ·å";
             // 
             // txtName
             // 
@@ -126,7 +126,7 @@ namespace HeidaStudy
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(36, 23);
             this.labelX3.TabIndex = 2;
-            this.labelX3.Text = "ÃÜÂë";
+            this.labelX3.Text = "å¯†ç ";
             // 
             // txtPassword
             // 
@@ -163,7 +163,7 @@ namespace HeidaStudy
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(66, 23);
             this.labelX2.TabIndex = 5;
-            this.labelX2.Text = "Ä¿±êÊ±¼ä";
+            this.labelX2.Text = "ç›®æ ‡æ—¶é—´";
             // 
             // txtTargetTime
             // 
@@ -195,7 +195,7 @@ namespace HeidaStudy
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(37, 23);
             this.labelX4.TabIndex = 7;
-            this.labelX4.Text = "·ÖÖÓ";
+            this.labelX4.Text = "åˆ†é’Ÿ";
             // 
             // btnStart
             // 
@@ -207,7 +207,7 @@ namespace HeidaStudy
             this.btnStart.Size = new System.Drawing.Size(78, 23);
             this.btnStart.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnStart.TabIndex = 8;
-            this.btnStart.Text = "¿ªÊ¼Ñ§Ï°";
+            this.btnStart.Text = "å¼€å§‹å­¦ä¹ ";
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // labelX6
@@ -222,7 +222,7 @@ namespace HeidaStudy
             this.labelX6.Name = "labelX6";
             this.labelX6.Size = new System.Drawing.Size(75, 23);
             this.labelX6.TabIndex = 13;
-            this.labelX6.Text = "µ±Ç°×´Ì¬£º";
+            this.labelX6.Text = "å½“å‰çŠ¶æ€ï¼š";
             // 
             // labelX7
             // 
@@ -236,7 +236,7 @@ namespace HeidaStudy
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(107, 23);
             this.labelX7.TabIndex = 15;
-            this.labelX7.Text = "µ±Ç°ÔÚÏßÊ±¼ä£º";
+            this.labelX7.Text = "å½“å‰åœ¨çº¿æ—¶é—´ï¼š";
             // 
             // labelX8
             // 
@@ -250,7 +250,7 @@ namespace HeidaStudy
             this.labelX8.Name = "labelX8";
             this.labelX8.Size = new System.Drawing.Size(75, 23);
             this.labelX8.TabIndex = 17;
-            this.labelX8.Text = "µ¥´Î½ø¶È£º";
+            this.labelX8.Text = "å•æ¬¡è¿›åº¦ï¼š";
             // 
             // labelX9
             // 
@@ -264,7 +264,7 @@ namespace HeidaStudy
             this.labelX9.Name = "labelX9";
             this.labelX9.Size = new System.Drawing.Size(66, 23);
             this.labelX9.TabIndex = 19;
-            this.labelX9.Text = "×Ü½ø¶È£º";
+            this.labelX9.Text = "æ€»è¿›åº¦ï¼š";
             // 
             // stbTime
             // 
@@ -293,7 +293,7 @@ namespace HeidaStudy
             this.btnSelectCourse.Size = new System.Drawing.Size(75, 23);
             this.btnSelectCourse.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnSelectCourse.TabIndex = 4;
-            this.btnSelectCourse.Text = "Ñ¡Ôñ¿Î³Ì";
+            this.btnSelectCourse.Text = "é€‰æ‹©è¯¾ç¨‹";
             this.btnSelectCourse.Click += new System.EventHandler(this.btnSelectCourse_Click);
             // 
             // labelX1
@@ -308,7 +308,7 @@ namespace HeidaStudy
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(91, 23);
             this.labelX1.TabIndex = 11;
-            this.labelX1.Text = "·şÎñÆ÷×´Ì¬£º";
+            this.labelX1.Text = "æœåŠ¡å™¨çŠ¶æ€ï¼š";
             // 
             // lblConnected
             // 
@@ -322,7 +322,7 @@ namespace HeidaStudy
             this.lblConnected.Name = "lblConnected";
             this.lblConnected.Size = new System.Drawing.Size(525, 23);
             this.lblConnected.TabIndex = 12;
-            this.lblConnected.Text = "Î´Á¬½Ó";
+            this.lblConnected.Text = "æœªè¿æ¥";
             // 
             // labelX11
             // 
@@ -336,7 +336,7 @@ namespace HeidaStudy
             this.labelX11.Name = "labelX11";
             this.labelX11.Size = new System.Drawing.Size(106, 23);
             this.labelX11.TabIndex = 9;
-            this.labelX11.Text = "ÒÑÑ¡ÔñµÄ¿Î³Ì£º";
+            this.labelX11.Text = "å·²é€‰æ‹©çš„è¯¾ç¨‹ï¼š";
             // 
             // lblSelectedCourse
             // 
@@ -350,7 +350,7 @@ namespace HeidaStudy
             this.lblSelectedCourse.Name = "lblSelectedCourse";
             this.lblSelectedCourse.Size = new System.Drawing.Size(525, 23);
             this.lblSelectedCourse.TabIndex = 10;
-            this.lblSelectedCourse.Text = "Î´Ñ¡Ôñ";
+            this.lblSelectedCourse.Text = "æœªé€‰æ‹©";
             // 
             // lblLinkBackup
             // 
@@ -365,7 +365,7 @@ namespace HeidaStudy
             this.lblLinkBackup.Name = "lblLinkBackup";
             this.lblLinkBackup.Size = new System.Drawing.Size(149, 23);
             this.lblLinkBackup.TabIndex = 25;
-            this.lblLinkBackup.Text = "±¸ÓÃµØÖ·£¨ĞÂÀË²©¿Í£©";
+            this.lblLinkBackup.Text = "å¤‡ç”¨åœ°å€ï¼ˆæ–°æµªåšå®¢ï¼‰";
             this.lblLinkBackup.Click += new System.EventHandler(this.lblLinkBackup_Click);
             // 
             // lblLinkHome
@@ -381,7 +381,7 @@ namespace HeidaStudy
             this.lblLinkHome.Name = "lblLinkHome";
             this.lblLinkHome.Size = new System.Drawing.Size(166, 23);
             this.lblLinkHome.TabIndex = 22;
-            this.lblLinkHome.Text = "¹Ù·½ÍøÕ¾£ºwww.stx8.com";
+            this.lblLinkHome.Text = "å®˜æ–¹ç½‘ç«™ï¼šwww.stx8.com";
             this.lblLinkHome.Click += new System.EventHandler(this.lblLinkHome_Click);
             // 
             // lblLinkBbs
@@ -397,7 +397,7 @@ namespace HeidaStudy
             this.lblLinkBbs.Name = "lblLinkBbs";
             this.lblLinkBbs.Size = new System.Drawing.Size(162, 23);
             this.lblLinkBbs.TabIndex = 23;
-            this.lblLinkBbs.Text = "¹Ù·½ÂÛÌ³£ºbbs.stx8.com";
+            this.lblLinkBbs.Text = "å®˜æ–¹è®ºå›ï¼šbbs.stx8.com";
             this.lblLinkBbs.Click += new System.EventHandler(this.lblLinkBbs_Click);
             // 
             // lblQqGroup
@@ -413,7 +413,7 @@ namespace HeidaStudy
             this.lblQqGroup.Name = "lblQqGroup";
             this.lblQqGroup.Size = new System.Drawing.Size(121, 23);
             this.lblQqGroup.TabIndex = 21;
-            this.lblQqGroup.Text = "QQÈº£º198889192";
+            this.lblQqGroup.Text = "QQç¾¤ï¼š198889192";
             this.lblQqGroup.Click += new System.EventHandler(this.lblQqGroup_Click);
             // 
             // labelX12
@@ -428,7 +428,7 @@ namespace HeidaStudy
             this.labelX12.Name = "labelX12";
             this.labelX12.Size = new System.Drawing.Size(138, 23);
             this.labelX12.TabIndex = 26;
-            this.labelX12.Text = "Powered by Ê·Í¬ĞÀ";
+            this.labelX12.Text = "Powered by å²åŒæ¬£";
             // 
             // lblStatus
             // 
@@ -442,7 +442,7 @@ namespace HeidaStudy
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(528, 23);
             this.lblStatus.TabIndex = 14;
-            this.lblStatus.Text = "Î´µÇÂ½";
+            this.lblStatus.Text = "æœªç™»é™†";
             // 
             // lblTime
             // 
@@ -456,7 +456,7 @@ namespace HeidaStudy
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(525, 23);
             this.lblTime.TabIndex = 16;
-            this.lblTime.Text = "Î´»ñÈ¡";
+            this.lblTime.Text = "æœªè·å–";
             // 
             // btnDonate
             // 
@@ -468,7 +468,7 @@ namespace HeidaStudy
             this.btnDonate.Size = new System.Drawing.Size(183, 82);
             this.btnDonate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnDonate.TabIndex = 28;
-            this.btnDonate.Text = "ÔŞÖúÒ»ÏÂ";
+            this.btnDonate.Text = "èµåŠ©ä¸€ä¸‹";
             this.btnDonate.TextColor = System.Drawing.Color.Black;
             this.btnDonate.Click += new System.EventHandler(this.btnDonate_Click);
             // 
@@ -485,7 +485,7 @@ namespace HeidaStudy
             this.lblLinkSoftware.Name = "lblLinkSoftware";
             this.lblLinkSoftware.Size = new System.Drawing.Size(256, 23);
             this.lblLinkSoftware.TabIndex = 29;
-            this.lblLinkSoftware.Text = "±¾Èí¼ş·¢²¼µØÖ·£ºshenqi.heida.stx8.com";
+            this.lblLinkSoftware.Text = "æœ¬è½¯ä»¶å‘å¸ƒåœ°å€ï¼šshenqi.heida.stx8.com";
             this.lblLinkSoftware.Click += new System.EventHandler(this.lblLinkSoftware_Click);
             // 
             // lblWeibo
@@ -501,7 +501,7 @@ namespace HeidaStudy
             this.lblWeibo.Name = "lblWeibo";
             this.lblWeibo.Size = new System.Drawing.Size(256, 23);
             this.lblWeibo.TabIndex = 30;
-            this.lblWeibo.Text = "ÎÒµÄÎ¢²©£ºweibo.com/wudimenghuan";
+            this.lblWeibo.Text = "æˆ‘çš„å¾®åšï¼šweibo.com/wudimenghuan";
             this.lblWeibo.Click += new System.EventHandler(this.lblWeibo_Click);
             // 
             // styleManager1
@@ -519,7 +519,7 @@ namespace HeidaStudy
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(192, 23);
             this.labelX5.TabIndex = 31;
-            this.labelX5.Text = "ÎÒµÄÎ¢ĞÅ£ºwudimenghuan";
+            this.labelX5.Text = "æˆ‘çš„å¾®ä¿¡ï¼šwudimenghuan";
             // 
             // MainForm
             // 
@@ -568,8 +568,8 @@ namespace HeidaStudy
             this.MinimumSize = new System.Drawing.Size(680, 480);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ºÚ´óÍøÂç½ÌÑ§Ñ§Ï°¹Ü¼Ò";
-            this.TitleText = "2015´º-ºÚÁú½­´óÑ§ÍøÂç½ÌÑ§Ñ§Ï°¹Ü¼ÒV3.7.1 by Ê·Í¬ĞÀ blog.stx8.com Ô­ÍøÖ·£ºwww.scuzn.com";
+            this.Text = "é»‘å¤§ç½‘ç»œæ•™å­¦å­¦ä¹ ç®¡å®¶";
+            this.TitleText = "2015æ˜¥-é»‘é¾™æ±Ÿå¤§å­¦ç½‘ç»œæ•™å­¦å­¦ä¹ ç®¡å®¶V3.7.1 by å²åŒæ¬£ blog.stx8.com åŸç½‘å€ï¼šwww.scuzn.com";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
