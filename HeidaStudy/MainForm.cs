@@ -492,10 +492,10 @@ namespace HeidaStudy
                     {
                         Environment.Exit(0);
                     }
-                    else if (month > 6)
-                    {
-                        Environment.Exit(0);
-                    }
+                    //else if (month > 6)
+                    //{
+                    //    Environment.Exit(0);
+                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
@@ -537,10 +537,10 @@ namespace HeidaStudy
                     {
                         Environment.Exit(0);
                     }
-                    else if (month > 6)
-                    {
-                        Environment.Exit(0);
-                    }
+                    //else if (month > 6)
+                    //{
+                    //    Environment.Exit(0);
+                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
