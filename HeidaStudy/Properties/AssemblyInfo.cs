@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("黑龙江大学网络课学习管家 3.7.1")]
-[assembly: AssemblyDescription("适用于2015年春季学期")]
+[assembly: AssemblyTitle("黑龙江大学网络课学习管家 3.8")]
+[assembly: AssemblyDescription("适用于2015年秋季学期")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("stx8.com")]
 [assembly: AssemblyProduct("HeidaStudy")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”: 
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.3.7.1")]
-[assembly: AssemblyFileVersion("1.3.7.1")]
+[assembly: AssemblyVersion("1.3.8.0")]
+[assembly: AssemblyFileVersion("1.3.8.0")]

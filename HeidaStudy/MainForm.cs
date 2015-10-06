@@ -68,10 +68,13 @@ namespace HeidaStudy
 
         private void setTip()
         {
-            //balloonTip1.SetBalloonCaption(nameTxt, "提示");
+            balloonTip1.SetBalloonCaption(txtName, "提示");
             balloonTip1.SetBalloonText(txtName, "输入你的大名吧，210.46.97.78网络教学平台的用户名");
+            balloonTip1.SetBalloonCaption(txtPassword, "提示");
             balloonTip1.SetBalloonText(txtPassword, "大名输完了就是你的密码咯，学校规定密码最长12位，超出范围的话就连网页也上不去哦，要去主楼修改密码的哦");
+            balloonTip1.SetBalloonCaption(btnSelectCourse, "提示");
             balloonTip1.SetBalloonText(btnSelectCourse, "在此处选择课程，可以选择总时长，总时长无加速功能哦");
+            balloonTip1.SetBalloonCaption(txtTargetTime, "提示");
             balloonTip1.SetBalloonText(txtTargetTime, "到此目标时候，时间会自动停止哦");
         }
 
