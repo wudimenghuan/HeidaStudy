@@ -491,14 +491,10 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2015)
+                    if (year > 2016 || month > 1)
                     {
                         Environment.Exit(0);
                     }
-                    //else if (month > 6)
-                    //{
-                    //    Environment.Exit(0);
-                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
@@ -536,14 +532,10 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2015)
+                    if (year > 2016 || month > 1)
                     {
                         Environment.Exit(0);
                     }
-                    //else if (month > 6)
-                    //{
-                    //    Environment.Exit(0);
-                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
