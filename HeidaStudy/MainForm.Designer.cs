@@ -599,7 +599,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "黑大网络教学学习管家";
-            this.TitleText = "2015春-黑龙江大学网络教学学习管家V3.8 by 史同欣 blog.stx8.com 原网址：www.scuzn.com";
+            this.TitleText = "2015秋-黑龙江大学网络教学学习管家V3.8 by 史同欣 blog.stx8.com 原网址：www.scuzn.com";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
