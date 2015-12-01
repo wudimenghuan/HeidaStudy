@@ -491,7 +491,7 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2016 || month > 1)
+                    if (year > 2016 || (year == 2016 && month > 1))
                     {
                         Environment.Exit(0);
                     }
@@ -532,7 +532,7 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2016 || month > 1)
+                    if (year > 2016 || (year == 2016 && month > 1))
                     {
                         Environment.Exit(0);
                     }
