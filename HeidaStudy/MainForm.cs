@@ -491,10 +491,11 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2016 || (year == 2016 && month > 1))
-                    {
-                        Environment.Exit(0);
-                    }
+                    //这里原来是控制版本的，因为我还没加入自动检查新版本或者自动升级，所以就用笨方法限制，让用户重新下载新版了
+                    //if (year > 2016 || (year == 2016 && month > 6))
+                    //{
+                    //    Environment.Exit(0);
+                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
@@ -532,10 +533,11 @@ namespace HeidaStudy
                     int year = int.Parse(times[0]);
                     int month = int.Parse(times[1]);
                     int day = int.Parse(times[2]);
-                    if (year > 2016 || (year == 2016 && month > 1))
-                    {
-                        Environment.Exit(0);
-                    }
+                    //这里原来是控制版本的，因为我还没加入自动检查新版本或者自动升级，所以就用笨方法限制，让用户重新下载新版了
+                    //if (year > 2016 || (year == 2016 && month > 6))
+                    //{
+                    //    Environment.Exit(0);
+                    //}
                     ShowTime();
                     ShowTotalProcess();
                     break;
